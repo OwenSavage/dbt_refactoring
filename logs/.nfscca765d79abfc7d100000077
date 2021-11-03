@@ -34797,3 +34797,203 @@ Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
 2021-11-03 21:00:30.282338 (Thread-21): handling status request
 2021-11-03 21:00:30.282653 (Thread-21): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '339773ff-6af3-4922-9884-a23186822d2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff669ca8ee0>]}
 2021-11-03 21:00:30.283106 (Thread-21): sending response (<Response 1209 bytes [200 OK]>) to 10.0.21.142
+2021-11-03 21:00:34.447630 (Thread-22): Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2021-11-03 21:00:34.448046 (Thread-22): Partial parsing enabled, no changes found, skipping parsing
+2021-11-03 21:00:34.454074 (Thread-22): Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '339773ff-6af3-4922-9884-a23186822d2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff669c67e80>]}
+2021-11-03 21:00:35.046959 (Thread-23): handling status request
+2021-11-03 21:00:35.047289 (Thread-23): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '339773ff-6af3-4922-9884-a23186822d2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff669cbb370>]}
+2021-11-03 21:00:35.047784 (Thread-23): sending response (<Response 1209 bytes [200 OK]>) to 10.0.16.199
+2021-11-03 21:02:27.162083 (Thread-69): Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2021-11-03 21:02:27.162518 (Thread-69): Partial parsing enabled, no changes found, skipping parsing
+2021-11-03 21:02:27.169412 (Thread-69): Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '80fb1913-9759-4dad-bab0-603a4262cd35', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff66809a940>]}
+2021-11-03 21:02:27.241613 (Thread-70): handling status request
+2021-11-03 21:02:27.241915 (Thread-70): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '80fb1913-9759-4dad-bab0-603a4262cd35', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff668139880>]}
+2021-11-03 21:02:27.242491 (Thread-70): sending response (<Response 1187 bytes [200 OK]>) to 10.0.41.213
+2021-11-03 21:02:27.250373 (Thread-71): handling list request
+2021-11-03 21:02:27.250698 (Thread-71): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '80fb1913-9759-4dad-bab0-603a4262cd35', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff668139580>]}
+2021-11-03 21:02:27.278451 (Thread-71): Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'afb14713-cff1-46a8-98e5-81dcc06332ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff668206b80>]}
+2021-11-03 21:02:27.278835 (Thread-71): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 372 macros, 0 operations, 0 seed files, 3 sources, 0 exposures
+2021-11-03 21:02:27.287796 (Thread-71): The selection criterion '+logs/dbt.log+' does not match any nodes
+2021-11-03 21:02:27.288083 (Thread-71): No nodes selected!
+2021-11-03 21:02:27.290235 (Thread-71): sending response (<Response 1874 bytes [200 OK]>) to 10.0.41.213
+2021-11-03 21:02:27.297651 (Thread-72): handling status request
+2021-11-03 21:02:27.298000 (Thread-72): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'afb14713-cff1-46a8-98e5-81dcc06332ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff668209b50>]}
+2021-11-03 21:02:27.298603 (Thread-72): sending response (<Response 1209 bytes [200 OK]>) to 10.0.42.97
+2021-11-03 21:02:27.316979 (Thread-73): handling status request
+2021-11-03 21:02:27.317458 (Thread-73): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'afb14713-cff1-46a8-98e5-81dcc06332ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff668209940>]}
+2021-11-03 21:02:27.318133 (Thread-73): sending response (<Response 1209 bytes [200 OK]>) to 10.0.16.199
+2021-11-03 21:02:28.306583 (Thread-74): handling status request
+2021-11-03 21:02:28.306892 (Thread-74): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'afb14713-cff1-46a8-98e5-81dcc06332ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6681a5460>]}
+2021-11-03 21:02:28.307353 (Thread-74): sending response (<Response 1187 bytes [200 OK]>) to 10.0.41.213
+2021-11-03 21:02:28.313768 (Thread-75): handling list request
+2021-11-03 21:02:28.314064 (Thread-75): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'afb14713-cff1-46a8-98e5-81dcc06332ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6682b4e50>]}
+2021-11-03 21:02:28.343930 (Thread-75): Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4f0c68ce-8a7c-433b-b6cd-4739f12f3f56', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6682b77f0>]}
+2021-11-03 21:02:28.344254 (Thread-75): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 372 macros, 0 operations, 0 seed files, 3 sources, 0 exposures
+2021-11-03 21:02:28.357526 (Thread-75): The selection criterion '+logs/dbt.log+' does not match any nodes
+2021-11-03 21:02:28.357762 (Thread-75): No nodes selected!
+2021-11-03 21:02:28.359262 (Thread-75): sending response (<Response 1874 bytes [200 OK]>) to 10.0.41.213
+2021-11-03 21:02:29.199546 (Thread-76): handling status request
+2021-11-03 21:02:29.199954 (Thread-76): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4f0c68ce-8a7c-433b-b6cd-4739f12f3f56', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6681a5550>]}
+2021-11-03 21:02:29.200510 (Thread-76): sending response (<Response 1187 bytes [200 OK]>) to 10.0.41.213
+2021-11-03 21:02:29.207840 (Thread-77): handling list request
+2021-11-03 21:02:29.208062 (Thread-77): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4f0c68ce-8a7c-433b-b6cd-4739f12f3f56', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff668139ac0>]}
+2021-11-03 21:02:29.235661 (Thread-77): Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6cb649ec-75db-4d45-b6c5-011521c962f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6682bda00>]}
+2021-11-03 21:02:29.236106 (Thread-77): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 372 macros, 0 operations, 0 seed files, 3 sources, 0 exposures
+2021-11-03 21:02:29.245403 (Thread-77): The selection criterion '+logs/dbt.log+' does not match any nodes
+2021-11-03 21:02:29.245588 (Thread-77): No nodes selected!
+2021-11-03 21:02:29.247169 (Thread-77): sending response (<Response 1874 bytes [200 OK]>) to 10.0.41.213
+2021-11-03 21:02:32.388413 (Thread-78): handling status request
+2021-11-03 21:02:32.390129 (Thread-78): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6cb649ec-75db-4d45-b6c5-011521c962f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff668210b20>]}
+2021-11-03 21:02:32.390620 (Thread-78): sending response (<Response 1187 bytes [200 OK]>) to 10.0.41.213
+2021-11-03 21:02:32.397051 (Thread-79): handling list request
+2021-11-03 21:02:32.397272 (Thread-79): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6cb649ec-75db-4d45-b6c5-011521c962f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff668365070>]}
+2021-11-03 21:02:32.431214 (Thread-79): Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1cb48ecc-223e-4050-bce0-5418b9058345', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff66820f250>]}
+2021-11-03 21:02:32.431585 (Thread-79): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 372 macros, 0 operations, 0 seed files, 3 sources, 0 exposures
+2021-11-03 21:02:32.434390 (Thread-79): sending response (<Response 3225 bytes [200 OK]>) to 10.0.41.213
+2021-11-03 21:02:40.007942 (Thread-80): Unable to do partial parsing because target/partial_parse.msgpack not found
+2021-11-03 21:02:40.008305 (Thread-80): Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1cb48ecc-223e-4050-bce0-5418b9058345', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6680a4d90>]}
+2021-11-03 21:02:40.198807 (Thread-80): Parsing macros/catalog.sql
+2021-11-03 21:02:40.202293 (Thread-80): Parsing macros/adapters.sql
+2021-11-03 21:02:40.250778 (Thread-80): Parsing macros/materializations/merge.sql
+2021-11-03 21:02:40.255480 (Thread-80): Parsing macros/materializations/table.sql
+2021-11-03 21:02:40.259984 (Thread-80): Parsing macros/materializations/seed.sql
+2021-11-03 21:02:40.268583 (Thread-80): Parsing macros/materializations/view.sql
+2021-11-03 21:02:40.270132 (Thread-80): Parsing macros/materializations/incremental.sql
+2021-11-03 21:02:40.278866 (Thread-80): Parsing macros/core.sql
+2021-11-03 21:02:40.285923 (Thread-80): Parsing macros/materializations/test.sql
+2021-11-03 21:02:40.292587 (Thread-80): Parsing macros/materializations/helpers.sql
+2021-11-03 21:02:40.302686 (Thread-80): Parsing macros/materializations/view/view.sql
+2021-11-03 21:02:40.309902 (Thread-80): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-11-03 21:02:40.314985 (Thread-80): Parsing macros/materializations/seed/seed.sql
+2021-11-03 21:02:40.340492 (Thread-80): Parsing macros/materializations/snapshot/strategies.sql
+2021-11-03 21:02:40.359130 (Thread-80): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-11-03 21:02:40.360967 (Thread-80): Parsing macros/materializations/snapshot/snapshot.sql
+2021-11-03 21:02:40.400713 (Thread-80): Parsing macros/materializations/table/table.sql
+2021-11-03 21:02:40.412057 (Thread-80): Parsing macros/materializations/common/merge.sql
+2021-11-03 21:02:40.431402 (Thread-80): Parsing macros/materializations/incremental/on_schema_change.sql
+2021-11-03 21:02:40.451858 (Thread-80): Parsing macros/materializations/incremental/incremental.sql
+2021-11-03 21:02:40.465610 (Thread-80): Parsing macros/materializations/incremental/helpers.sql
+2021-11-03 21:02:40.467641 (Thread-80): Parsing macros/etc/get_custom_alias.sql
+2021-11-03 21:02:40.469507 (Thread-80): Parsing macros/etc/datetime.sql
+2021-11-03 21:02:40.478389 (Thread-80): Parsing macros/etc/query.sql
+2021-11-03 21:02:40.485386 (Thread-80): Parsing macros/etc/where_subquery.sql
+2021-11-03 21:02:40.487621 (Thread-80): Parsing macros/etc/get_custom_database.sql
+2021-11-03 21:02:40.489345 (Thread-80): Parsing macros/etc/get_custom_schema.sql
+2021-11-03 21:02:40.491887 (Thread-80): Parsing macros/etc/is_incremental.sql
+2021-11-03 21:02:40.493537 (Thread-80): Parsing macros/adapters/common.sql
+2021-11-03 21:02:40.556817 (Thread-80): Parsing macros/schema_tests/accepted_values.sql
+2021-11-03 21:02:40.559181 (Thread-80): Parsing macros/schema_tests/not_null.sql
+2021-11-03 21:02:40.560463 (Thread-80): Parsing macros/schema_tests/relationships.sql
+2021-11-03 21:02:40.562192 (Thread-80): Parsing macros/schema_tests/unique.sql
+2021-11-03 21:02:40.563568 (Thread-80): Parsing macros/sql/pivot.sql
+2021-11-03 21:02:40.567731 (Thread-80): Parsing macros/sql/star.sql
+2021-11-03 21:02:40.571445 (Thread-80): Parsing macros/sql/surrogate_key.sql
+2021-11-03 21:02:40.575073 (Thread-80): Parsing macros/sql/get_query_results_as_dict.sql
+2021-11-03 21:02:40.577540 (Thread-80): Parsing macros/sql/date_spine.sql
+2021-11-03 21:02:40.583603 (Thread-80): Parsing macros/sql/get_column_values.sql
+2021-11-03 21:02:40.588837 (Thread-80): Parsing macros/sql/groupby.sql
+2021-11-03 21:02:40.590401 (Thread-80): Parsing macros/sql/get_tables_by_pattern_sql.sql
+2021-11-03 21:02:40.597515 (Thread-80): Parsing macros/sql/nullcheck_table.sql
+2021-11-03 21:02:40.599730 (Thread-80): Parsing macros/sql/get_tables_by_prefix_sql.sql
+2021-11-03 21:02:40.602022 (Thread-80): Parsing macros/sql/get_relations_by_pattern.sql
+2021-11-03 21:02:40.606572 (Thread-80): Parsing macros/sql/get_relations_by_prefix.sql
+2021-11-03 21:02:40.611314 (Thread-80): Parsing macros/sql/safe_add.sql
+2021-11-03 21:02:40.613675 (Thread-80): Parsing macros/sql/haversine_distance.sql
+2021-11-03 21:02:40.620030 (Thread-80): Parsing macros/sql/unpivot.sql
+2021-11-03 21:02:40.628122 (Thread-80): Parsing macros/sql/generate_series.sql
+2021-11-03 21:02:40.635982 (Thread-80): Parsing macros/sql/nullcheck.sql
+2021-11-03 21:02:40.636916 (Thread-81): handling status request
+2021-11-03 21:02:40.639561 (Thread-80): Parsing macros/sql/union.sql
+2021-11-03 21:02:40.639949 (Thread-81): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1cb48ecc-223e-4050-bce0-5418b9058345', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6681f9460>]}
+2021-11-03 21:02:40.651286 (Thread-81): sending response (<Response 185 bytes [200 OK]>) to 10.0.15.6
+2021-11-03 21:02:40.655247 (Thread-80): Parsing macros/materializations/insert_by_period_materialization.sql
+2021-11-03 21:02:40.687167 (Thread-80): Parsing macros/jinja_helpers/pretty_time.sql
+2021-11-03 21:02:40.689035 (Thread-80): Parsing macros/jinja_helpers/slugify.sql
+2021-11-03 21:02:40.690370 (Thread-80): Parsing macros/jinja_helpers/log_info.sql
+2021-11-03 21:02:40.692633 (Thread-80): Parsing macros/jinja_helpers/pretty_log_format.sql
+2021-11-03 21:02:40.693879 (Thread-80): Parsing macros/web/get_url_parameter.sql
+2021-11-03 21:02:40.695564 (Thread-80): Parsing macros/web/get_url_path.sql
+2021-11-03 21:02:40.698151 (Thread-80): Parsing macros/web/get_url_host.sql
+2021-11-03 21:02:40.699914 (Thread-80): Parsing macros/schema_tests/expression_is_true.sql
+2021-11-03 21:02:40.701769 (Thread-80): Parsing macros/schema_tests/not_constant.sql
+2021-11-03 21:02:40.703020 (Thread-80): Parsing macros/schema_tests/sequential_values.sql
+2021-11-03 21:02:40.705695 (Thread-80): Parsing macros/schema_tests/not_null_proportion.sql
+2021-11-03 21:02:40.708349 (Thread-80): Parsing macros/schema_tests/at_least_one.sql
+2021-11-03 21:02:40.709714 (Thread-80): Parsing macros/schema_tests/equality.sql
+2021-11-03 21:02:40.715199 (Thread-80): Parsing macros/schema_tests/test_not_null_where.sql
+2021-11-03 21:02:40.717047 (Thread-80): Parsing macros/schema_tests/equal_rowcount.sql
+2021-11-03 21:02:40.718794 (Thread-80): Parsing macros/schema_tests/not_accepted_values.sql
+2021-11-03 21:02:40.721019 (Thread-80): Parsing macros/schema_tests/test_unique_where.sql
+2021-11-03 21:02:40.722481 (Thread-80): Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2021-11-03 21:02:40.731235 (Thread-80): Parsing macros/schema_tests/relationships_where.sql
+2021-11-03 21:02:40.733563 (Thread-80): Parsing macros/schema_tests/accepted_range.sql
+2021-11-03 21:02:40.744098 (Thread-80): Parsing macros/schema_tests/fewer_rows_than.sql
+2021-11-03 21:02:40.752656 (Thread-80): Parsing macros/schema_tests/unique_combination_of_columns.sql
+2021-11-03 21:02:40.764484 (Thread-80): Parsing macros/schema_tests/recency.sql
+2021-11-03 21:02:40.770794 (Thread-80): Parsing macros/schema_tests/cardinality_equality.sql
+2021-11-03 21:02:40.773214 (Thread-80): Parsing macros/cross_db_utils/split_part.sql
+2021-11-03 21:02:40.775058 (Thread-80): Parsing macros/cross_db_utils/length.sql
+2021-11-03 21:02:40.776364 (Thread-80): Parsing macros/cross_db_utils/current_timestamp.sql
+2021-11-03 21:02:40.779798 (Thread-80): Parsing macros/cross_db_utils/right.sql
+2021-11-03 21:02:40.783007 (Thread-80): Parsing macros/cross_db_utils/hash.sql
+2021-11-03 21:02:40.784418 (Thread-80): Parsing macros/cross_db_utils/replace.sql
+2021-11-03 21:02:40.794573 (Thread-80): Parsing macros/cross_db_utils/cast_bool_to_text.sql
+2021-11-03 21:02:40.796868 (Thread-80): Parsing macros/cross_db_utils/concat.sql
+2021-11-03 21:02:40.798577 (Thread-80): Parsing macros/cross_db_utils/_is_relation.sql
+2021-11-03 21:02:40.800489 (Thread-80): Parsing macros/cross_db_utils/identifier.sql
+2021-11-03 21:02:40.803328 (Thread-80): Parsing macros/cross_db_utils/datediff.sql
+2021-11-03 21:02:40.819636 (Thread-80): Parsing macros/cross_db_utils/dateadd.sql
+2021-11-03 21:02:40.824237 (Thread-80): Parsing macros/cross_db_utils/datatypes.sql
+2021-11-03 21:02:40.833289 (Thread-80): Parsing macros/cross_db_utils/position.sql
+2021-11-03 21:02:40.835782 (Thread-80): Parsing macros/cross_db_utils/literal.sql
+2021-11-03 21:02:40.837300 (Thread-80): Parsing macros/cross_db_utils/_is_ephemeral.sql
+2021-11-03 21:02:40.840345 (Thread-80): Parsing macros/cross_db_utils/width_bucket.sql
+2021-11-03 21:02:40.848488 (Thread-80): Parsing macros/cross_db_utils/date_trunc.sql
+2021-11-03 21:02:40.850780 (Thread-80): Parsing macros/cross_db_utils/except.sql
+2021-11-03 21:02:40.852347 (Thread-80): Parsing macros/cross_db_utils/safe_cast.sql
+2021-11-03 21:02:40.855107 (Thread-80): Parsing macros/cross_db_utils/last_day.sql
+2021-11-03 21:02:40.862212 (Thread-80): Parsing macros/cross_db_utils/intersect.sql
+2021-11-03 21:02:40.864024 (Thread-80): Parsing macros/compare_queries.sql
+2021-11-03 21:02:40.867834 (Thread-80): Parsing macros/compare_relation_columns.sql
+2021-11-03 21:02:40.876739 (Thread-80): Parsing macros/compare_column_values.sql
+2021-11-03 21:02:40.888176 (Thread-80): Parsing macros/compare_relations.sql
+2021-11-03 21:02:41.247548 (Thread-82): handling status request
+2021-11-03 21:02:41.258285 (Thread-82): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1cb48ecc-223e-4050-bce0-5418b9058345', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff668137340>]}
+2021-11-03 21:02:41.258971 (Thread-82): sending response (<Response 185 bytes [200 OK]>) to 10.0.36.187
+2021-11-03 21:02:41.346676 (Thread-83): handling status request
+2021-11-03 21:02:41.352052 (Thread-80): Acquiring new snowflake connection "model.refactoring.customer_orders".
+2021-11-03 21:02:41.352503 (Thread-83): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1cb48ecc-223e-4050-bce0-5418b9058345', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff660791310>]}
+2021-11-03 21:02:41.363322 (Thread-83): sending response (<Response 163 bytes [200 OK]>) to 10.0.41.213
+2021-11-03 21:02:41.377168 (Thread-80): Acquiring new snowflake connection "model.refactoring.stg_customers".
+2021-11-03 21:02:41.384449 (Thread-80): Acquiring new snowflake connection "model.refactoring.new_stg_customer_orders".
+2021-11-03 21:02:41.390402 (Thread-80): Acquiring new snowflake connection "model.refactoring.old_customer_orders".
+2021-11-03 21:02:41.394404 (Thread-80): Acquiring new snowflake connection "model.refactoring.compare".
+2021-11-03 21:02:41.586154 (Thread-84): handling status request
+2021-11-03 21:02:41.596711 (Thread-84): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1cb48ecc-223e-4050-bce0-5418b9058345', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6a6aa5d90>]}
+2021-11-03 21:02:41.607717 (Thread-84): sending response (<Response 163 bytes [200 OK]>) to 10.0.41.213
+2021-11-03 21:02:41.656406 (Thread-80): Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1cb48ecc-223e-4050-bce0-5418b9058345', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6681d4b80>]}
+2021-11-03 21:02:41.673656 (Thread-85): handling status request
+2021-11-03 21:02:41.673969 (Thread-85): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1cb48ecc-223e-4050-bce0-5418b9058345', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6a6a2e490>]}
+2021-11-03 21:02:41.702464 (Thread-85): sending response (<Response 30793 bytes [200 OK]>) to 10.0.41.213
+2021-11-03 21:02:41.709632 (Thread-86): handling list request
+2021-11-03 21:02:41.710069 (Thread-86): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1cb48ecc-223e-4050-bce0-5418b9058345', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff668328700>]}
+2021-11-03 21:02:41.734953 (Thread-86): Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '55287ad3-584f-4c18-b3cc-54acc0639538', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6a6a2e130>]}
+2021-11-03 21:02:41.735314 (Thread-86): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 372 macros, 0 operations, 0 seed files, 3 sources, 0 exposures
+2021-11-03 21:02:41.739293 (Thread-86): sending response (<Response 3225 bytes [200 OK]>) to 10.0.41.213
+2021-11-03 21:02:42.034395 (Thread-87): handling status request
+2021-11-03 21:02:42.034710 (Thread-87): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '55287ad3-584f-4c18-b3cc-54acc0639538', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6607013d0>]}
+2021-11-03 21:02:42.036423 (Thread-87): sending response (<Response 30815 bytes [200 OK]>) to 10.0.36.187
+2021-11-03 21:02:42.710641 (Thread-88): handling status request
+2021-11-03 21:02:42.710963 (Thread-88): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '55287ad3-584f-4c18-b3cc-54acc0639538', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6681f9df0>]}
+2021-11-03 21:02:42.712362 (Thread-88): sending response (<Response 30815 bytes [200 OK]>) to 10.0.1.14
+2021-11-03 21:02:48.114943 (Thread-89): handling status request
+2021-11-03 21:02:48.115311 (Thread-89): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '55287ad3-584f-4c18-b3cc-54acc0639538', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff668146c70>]}
+2021-11-03 21:02:48.116691 (Thread-89): sending response (<Response 30793 bytes [200 OK]>) to 10.0.41.213
+2021-11-03 21:02:48.123159 (Thread-90): handling list request
+2021-11-03 21:02:48.123372 (Thread-90): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '55287ad3-584f-4c18-b3cc-54acc0639538', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6680a4b80>]}
+2021-11-03 21:02:48.154842 (Thread-90): Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0b9f659e-afc2-41b2-829e-68f9376dd5cb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff660701820>]}
+2021-11-03 21:02:48.155202 (Thread-90): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 372 macros, 0 operations, 0 seed files, 3 sources, 0 exposures
+2021-11-03 21:02:48.157703 (Thread-90): sending response (<Response 3225 bytes [200 OK]>) to 10.0.41.213
+2021-11-03 21:02:54.856674 (Thread-91): handling status request
+2021-11-03 21:02:54.856982 (Thread-91): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0b9f659e-afc2-41b2-829e-68f9376dd5cb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff660701d30>]}
+2021-11-03 21:02:54.858564 (Thread-91): sending response (<Response 30815 bytes [200 OK]>) to 10.0.13.82
