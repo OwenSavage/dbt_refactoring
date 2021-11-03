@@ -1,0 +1,25 @@
+2021-11-03 21:05:12.000544 (MainThread): Running with dbt=0.21.0
+2021-11-03 21:05:12.428689 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.rpc.server.RPCServerTask'>, debug=False, defer=None, exclude=None, host='0.0.0.0', log_cache_events=False, log_format='default', models=None, partial_parse=True, port=8580, profile='user', profiles_dir='/usr/src/develop/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, use_colors=None, use_experimental_parser=False, vars='{}', version_check=True, warn_error=False, which='rpc', write_json=True)
+2021-11-03 21:05:12.439052 (MainThread): Tracking: tracking
+2021-11-03 21:05:12.440175 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f565f9daee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5659fda9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5659fe7ee0>]}
+2021-11-03 21:05:12.445281 (MainThread): Serving RPC server at 0.0.0.0:8580, pid=21
+2021-11-03 21:05:12.445732 (MainThread): Supported methods: ['build', 'cli_args', 'compile', 'compile_sql', 'deps', 'docs.generate', 'gc', 'get-manifest', 'kill', 'list', 'poll', 'ps', 'run', 'run-operation', 'run_sql', 'seed', 'snapshot', 'snapshot-freshness', 'source-freshness', 'status', 'test']
+2021-11-03 21:05:12.445981 (MainThread): Send requests to http://localhost:8580/jsonrpc
+2021-11-03 21:05:12.670440 (Thread-12): Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2021-11-03 21:05:12.670948 (Thread-12): Partial parsing enabled, no changes found, skipping parsing
+2021-11-03 21:05:12.678682 (Thread-12): Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '901a8fa6-2d93-42c3-b175-887697500f09', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f561d2d6f10>]}
+2021-11-03 21:05:14.366190 (Thread-13): handling ps request
+2021-11-03 21:05:14.366582 (Thread-13): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '901a8fa6-2d93-42c3-b175-887697500f09', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5659fef1f0>]}
+2021-11-03 21:05:14.367180 (Thread-13): sending response (<Response 105 bytes [200 OK]>) to 10.0.21.19
+2021-11-03 21:05:14.396955 (Thread-14): handling status request
+2021-11-03 21:05:14.397274 (Thread-14): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '901a8fa6-2d93-42c3-b175-887697500f09', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5659ff3af0>]}
+2021-11-03 21:05:14.397760 (Thread-14): sending response (<Response 1209 bytes [200 OK]>) to 10.0.1.204
+2021-11-03 21:05:14.424735 (Thread-15): handling status request
+2021-11-03 21:05:14.424991 (Thread-15): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '901a8fa6-2d93-42c3-b175-887697500f09', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f561d2d6b20>]}
+2021-11-03 21:05:14.425430 (Thread-15): sending response (<Response 1209 bytes [200 OK]>) to 10.0.21.142
+2021-11-03 21:05:14.476531 (Thread-16): handling status request
+2021-11-03 21:05:14.476904 (Thread-16): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '901a8fa6-2d93-42c3-b175-887697500f09', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5659fe7310>]}
+2021-11-03 21:05:14.477399 (Thread-16): sending response (<Response 1209 bytes [200 OK]>) to 10.0.1.204
+2021-11-03 21:06:30.972799 (Thread-17): handling status request
+2021-11-03 21:06:30.974362 (Thread-17): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '901a8fa6-2d93-42c3-b175-887697500f09', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f561d2dc880>]}
+2021-11-03 21:06:30.974843 (Thread-17): sending response (<Response 1209 bytes [200 OK]>) to 10.0.47.112
